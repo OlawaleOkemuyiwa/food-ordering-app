@@ -1,0 +1,48 @@
+.cart-items {
+    list-style: none;
+    max-height: 15rem;
+    overflow-y: scroll;
+    padding-right: .5rem;
+}
+
+.total {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions button {
+    font: inherit;
+    border: 1px solid #8a2b06;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    transition: all .2s;
+}
+  
+.actions .button--nobg {
+    color: #8a2b06;
+    background-color: transparent;
+}
+
+.actions .button--brownbg {
+    color: white;
+    background-color: #8a2b06;
+    margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    color: white;
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+}
+
+  
